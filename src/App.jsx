@@ -1,11 +1,14 @@
 import './app.scss';
 
 import React from 'react';
+import Navbar from './components/navbar/Navbar';
 
 const App = () => {
   return (
     <>
-      <section>Home</section>
+      <section>
+        <Navbar />
+      </section>
       <section>Parallax</section>
       <section>Content</section>
       <section>Parallax</section>
