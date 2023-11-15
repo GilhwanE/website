@@ -4,12 +4,13 @@ import Links from './links/Links';
 import { motion } from 'framer-motion';
 import ToggleBtn from './toggleBtn/ToggleBtn';
 
+// variants는 motion 변수에 들어갈 기능들
 const variants = {
   open: {
     clipPath: 'circle(1200px at 50px 50px)',
     transition: {
       type: 'spring',
-      stiffness: 30,
+      stiffness: 40,
     },
   },
   closed: {
