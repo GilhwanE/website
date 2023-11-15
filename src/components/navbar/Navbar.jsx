@@ -9,6 +9,7 @@ const Navbar = () => {
       {/* Sidenav */}
       <Sidebar />
       <div className="wrap">
+        {/* 로고 interaction 방식 투명도 0 ~ 1 , 크기 0.5 ~ 1.5 */}
         <motion.h1
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1.5 }}
